@@ -42,7 +42,7 @@ export default function Header() {
 
           {/* moon icon */}
           <svg
-            className="swap-off h-10 w-10 fill-current bg-gray-700 text-white p-1 rounded-full"
+            className="swap-off h-10 w-10 fill-current bg-white text-black p-1 rounded-full"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
           >
@@ -50,7 +50,9 @@ export default function Header() {
           </svg>
         </label>
         <Link to="/sign-in">
-          <Button gradientDuoTone="purpleToBlue">Sign In</Button>
+          <Button gradientDuoTone="purpleToBlue" outline>
+            Sign In
+          </Button>
         </Link>
         <Navbar.Toggle />
       </div>
