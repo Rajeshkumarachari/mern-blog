@@ -10,7 +10,7 @@ export default function Header() {
         to="/"
         className="self-center whitespace-nowrap text-sm sm:text-xl font-semibold dark:text-white"
       >
-        <span className="px-2 py-1 mr-2 text-orange-500 border border-blue-700 rounded-xl  ">
+        <span className="px-2 py-1  mr-2 text-orange-500 border border-blue-700 rounded-xl  ">
           Rajesh-Kumar
         </span>
         Blog
